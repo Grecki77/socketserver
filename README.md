@@ -6,7 +6,7 @@ The application is designed to operate a local network. If you want it to work o
 
 If you think you need to change the port on which the server is available, you can do it in `package.json`. Modification of the main file is only required when the `PORT` parameter is not passed.
 
-# Instalation guide
+# Installation guide
 
 1. Install `node.js` from official project site;
 2. Install `Yarn` from official site (or modify scripts in `package.json`);
