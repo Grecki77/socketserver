@@ -1,0 +1,23 @@
+{
+    "name": "socketserver",
+    "version": "1.0.0",
+    "description": "Simple Socket Server 4 several intresting procects",
+    "main": "socket.js",
+    "scripts": {
+      "start": "node socket.js  --PORT=7101",
+      "bgStart":"pm2 start socket.js --name 'socket-app' -- --PORT=7100",
+      "bgStatus":"pm2 status",
+      "bgLog":"pm2 log 'socket.app'",
+      "bgStop":"pm2 stop 'socket-app'"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "http": "^0.0.1-security",
+      "socket.io": "^4.0.0",
+      "cors": "^2.8.5",
+      "pm2": "^5.2.0"
+    },
+    "author": "Grecki77",
+    "license": "MIT"
+  }
+  
